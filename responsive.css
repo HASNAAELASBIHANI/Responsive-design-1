@@ -12,9 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #222;
-    padding: 20px;
-    color: white;
+    padding: 20px;   
 }
 .logo { 
     font-size: 24px;
@@ -27,7 +25,8 @@ body {
     gap: 20px;
 }
 .link a {
-    color: white;
+    color: black;
+    text-transform: capitalize;
 }
 .menu {
     display: none;
@@ -38,7 +37,7 @@ body {
     display: none;
 }
 .div1 {
-    background-color: blue;
+    background-color: rgb(134, 71, 20);
     padding: 5px;
     border-radius: 20px;
 }
@@ -51,7 +50,7 @@ body {
         top: 60px;
         left: 0;
         width: 100%;
-        background: #585757;
+        background: rgba(202, 108, 21, 0.678);
         flex-direction: column;
         align-items: center;
         display: none;
@@ -61,6 +60,104 @@ body {
     #btn-menu:checked + .menu + .link {
         display: flex;
     }
+}
 
-    
+/*parti 1 main*/
+
+.section-1 {
+    background-image: url(https://img.freepik.com/premium-photo/successful-african-american-business-team-talking-about-strategy-office_709984-1217.jpg?w=2000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.div2 {
+    margin-left: 100px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    line-height: 50px; 
+    color: white;
+}
+.title-1 {
+    font-size: 40px;
+    text-transform: capitalize; 
+}
+.btn1-main button {
+    border: none;
+    background: transparent;
+    color: white;
+    margin: 20px;
+    padding: 8px 20px;
+    text-transform: capitalize;
+}
+.btn1-main button.btn-1-1 {
+    border-radius: 5px;
+    background-color:green;
+}
+
+/* section 3*/
+
+.section-2 {  background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.section-2 h1 {
+    text-transform: capitalize;
+    color: green;
+    font-weight: 600;
+    font-size: 26px ;
+}
+.div3-s2 {
+    display: flex;
+    gap: 30px;  
+}
+.semidiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 410px;
+    height: 250px;
+    gap: 30px;
+    background-color: rgb(197, 197, 197);
+}
+.para-sd1 {
+    text-align: center;
+    width: 420px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.div3-s2 h1 {
+    background-color: green;
+    color: white;
+    padding: 10px 100px;
+}
+.b-sd {
+    background-color: green;
+    color: white;
+    padding: 8px 30px;
+    border: transparent;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.p-s2 {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.img {
+    width: 850px;
+}
+.b-s {
+    background-color: green;
+    color: white;
+    padding: 8px 30px;
+    border: transparent;
+    border-radius: 10px;
+    text-transform: capitalize; 
+    margin:5px  30px;
 }
